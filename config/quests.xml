@@ -1,0 +1,8 @@
+<tehMods>
+<!-- * * * * * Level 1 player fix * * * * * --> 
+
+<set xpath="/quests/quest[@id='quest_BasicSurvival1']/reward[@type='Exp']/@value">11000</set>
+
+
+
+</tehMods>

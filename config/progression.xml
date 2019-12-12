@@ -1,0 +1,13 @@
+<tehMods>
+
+<!-- WIRELESS -->		
+    <append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@tags='generatorbank,electricwirerelay,switch,ceilingLight01_player,industrialLight01_player,industrialLight02_player,armorMiningHelmet,spotlightPlayer,speaker,pressureplate,pressureplateLong,dartTrap,electrictimerrelay,motionsensor,tripwirepost,electricfencepost,bladeTrap']/@tags">,wirelessFuseboxSwitch,wirelessRelay,ceilingFanLight_player</append>
+
+<!-- * * * * * * * TEH WORK STATIONS * * * * * * * -->
+    <append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@tags='foodSteakAndPotato,foodBlueberryPie,foodMeatStew,foodVegetableStew,foodPumpkinPie,foodPumpkinCheesecake,foodPumpkinBread']/@tags">,WorkingStove</append>
+
+    <append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@tags='toolForgeCrucible,autoTurret']/@tags">,IndustrialMixer</append>
+
+
+
+</tehMods>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="TehMods" />
+		<Description value="Mods for the Barren Realms server." />
+		<Author value="TehKarmah" />
+		<Version value="2.01" />
+	</ModInfo>
+</xml>

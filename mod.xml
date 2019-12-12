@@ -1,0 +1,10 @@
+<mod>
+	<info>
+		<author>TehKarmah</author>
+		<name>TehMods</name>
+		<description>Mods for the Barren Realms server. Special thanks to [WLG]Trenton for working out the parts I was too lazy to do. Also Highhope, Untamed Wolf, and all the talented modders on the Admin Coalition Discord.</description>
+		<mod_version>2.03</mod_version>
+		<game_version>18.2</game_version>
+		<launcher_version>0.7.3</launcher_version> <!-- Your guess is as good as mine. -->
+	</info>
+</mod>

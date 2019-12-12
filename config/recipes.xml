@@ -1,0 +1,149 @@
+<tehMods>
+
+<append xpath="/recipes">	
+
+<!--  * * * * * CM ITEMS * * * * *  -->
+
+	<recipe name="resourceCoal" count="1" craft_time="10" craft_area="chemistryStation">
+		<ingredient name="resourceWood" count="4"/>
+	</recipe>
+
+	<recipe name="houseFrontDoor1_v1" count="1" craft_area="tablesaw">
+		<ingredient name="resourceWood" count="15"/>
+		<ingredient name="resourceScrapBrass" count="5"/>
+	</recipe>
+
+	<recipe name="houseFrontDoor2_v1" count="1" craft_area="tablesaw">
+		<ingredient name="resourceWood" count="15"/>
+		<ingredient name="resourceScrapBrass" count="5"/>
+	</recipe>
+
+	<recipe name="cntWaterCoolerFull" count="1" craft_area="workbench">
+		<ingredient name="drinkJarBoiledWater" count="10"/>
+		<ingredient name="resourceScrapPolymers" count="10"/>
+		<ingredient name="resourceMechanicalParts" count="1"/>
+		<ingredient name="resourceForgedIron" count="4"/>
+	</recipe>
+
+	<recipe name="woodLogSpike1" count="1">
+		<ingredient name="resourceWood" count="100"/>
+	</recipe>
+
+	<recipe name="foodRottingFlesh" count="1" craft_area="campfire" craft_tool="toolCookingPot" craft_time="120">
+		<ingredient name="foodRawMeat" count="5"/>
+		<ingredient name="resourceBone" count="5"/>
+		<ingredient name="resourceAnimalFat" count="5"/>
+	</recipe>
+
+	<recipe name="window02" count="1">
+		<ingredient name="resourceWood" count="4"/>
+		<ingredient name="glassBlockVariantHelper" count="1"/>
+	</recipe>
+
+	<recipe name="barbedWireSheet" count="1"> <!-- trap -->
+		<ingredient name="resourceScrapIron" count="30"/>
+	</recipe>
+
+	<recipe name="emberPileDeco1" count="1">
+		<ingredient name="resourceWood" count="50"/>
+		<ingredient name="meleeToolTorch" count="1"/>
+	</recipe>
+
+	<recipe name="emberPileDeco2" count="1">
+		<ingredient name="resourceWood" count="50"/>
+		<ingredient name="meleeToolTorch" count="1"/>
+	</recipe>
+
+	<recipe name="emberPileDeco3" count="1">
+		<ingredient name="resourceWood" count="50"/>
+		<ingredient name="meleeToolTorch" count="1"/>
+	</recipe>
+
+	<recipe name="emberPileDeco4" count="1">
+		<ingredient name="resourceWood" count="50"/>
+		<ingredient name="meleeToolTorch" count="1"/>
+	</recipe>
+
+
+
+	
+
+<!--  * * * * * TEHMOD ITEMS * * * * *  -->
+	<recipe name="Kale" count="1">
+		<ingredient name="resourceYuccaFibers" count="1"/>
+	</recipe>
+
+	<recipe name="BurningEmbers" count="1">
+		<ingredient name="resourceWood" count="50"/>
+		<ingredient name="meleeToolTorch" count="1"/>
+	</recipe>
+
+	<recipe name="wirelessFuseboxSwitch" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient name="resourceForgedIron" count="2"/>
+		<ingredient name="resourceElectricParts" count="5"/>
+	</recipe>
+
+	<recipe name="wirelessRelay" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient name="resourceForgedIron" count="2"/>
+		<ingredient name="resourceElectricParts" count="5"/>
+	</recipe>
+
+	<recipe name="Weedwacker" count="1" craft_area="workbench" >
+		<ingredient name="resourceForgedIron" count="20"/>
+		<ingredient name="resourceWood" count="10"/>
+		<ingredient name="resourceLeather" count="2"/>
+		<ingredient name="resourceDuctTape" count="2"/>
+	</recipe>-->
+	
+	<recipe name="ceilingFanLight_player" count="1" craft_area="workbench" tags="learnable">
+		<ingredient name="resourceForgedIron" count="10"/>
+		<ingredient name="resourceWood" count="10"/>
+		<ingredient name="resourceElectricParts" count="3"/>
+	</recipe>
+
+	<recipe name="FireGlass" count="1" craft_time="30" craft_area="workbench" tags="learnable">
+		<ingredient name="glassBlockVariantHelper" count="1"/>
+		<ingredient name="meleeToolTorch" count="1"/>
+	</recipe>
+
+	<recipe name="AdvancedMetalFurniture" count="1" craft_area="workbench" tags="workbenchCrafting">
+        <ingredient name="resourceForgedIron" count="10"/>
+		<ingredient name="resourceElectricParts" count="1"/>
+		<ingredient name="resourceMechanicalParts" count="4"/>
+    </recipe>
+
+
+<!-- * * * * * * * TEH WORK STATIONS * * * * * * * -->
+	<recipe name="WorkingStove" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient name="resourceMetalPipe" count="5"/>
+		<ingredient name="resourceMechanicalParts" count="1"/>
+		<ingredient name="resourceForgedIron" count="20"/>
+		<ingredient name="campfire" count="1"/>
+	</recipe>
+
+	<recipe name="IndustrialMixer" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient name="resourceForgedIron" count="50"/>
+		<ingredient name="resourceSpring" count="10"/>
+		<ingredient name="smallEngine" count="1"/>
+		<ingredient name="resourceMechanicalParts" count="20"/>
+	</recipe>
+
+	<recipe name="pouredConcreteBlockVariantHelper" count="1" craft_area="IndustrialMixer" craft_time="1" tags="IndustrialMixerCrafting">
+		<ingredient name="unit_stone" count="100"/>
+		<effect_group>
+			<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_stone"/>
+		</effect_group>
+	</recipe>
+
+	<recipe name="resourceConcreteMix" count="5" craft_area="IndustrialMixer" craft_time="1" tags="IndustrialMixerCrafting">
+		<ingredient name="unit_stone" count="50"/>
+		<effect_group>
+			<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_stone"/>
+		</effect_group>
+	</recipe>
+
+
+	</append>
+
+
+</tehMods>

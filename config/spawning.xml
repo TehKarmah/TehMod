@@ -1,0 +1,33 @@
+<tehMods>
+
+
+
+<!-- * * * * * Spawning Changes * * * * * --> 
+
+    <append xpath="/spawning">
+
+
+        <biome name="pine_forest">
+            <spawn maxcount="1" respawndelay="3" time="Day" entitygroup="ZombiesAll" />
+            <spawn maxcount="1" respawndelay="4" time="Night" entitygroup="ZombiesNight" />
+            <spawn maxcount="1" respawndelay="14" time="Any" entitygroup="EnemyAnimalsForest" spawnDeadChance="0" />
+            <spawn maxcount="1" respawndelay="2" time="Any" entitygroup="FriendlyAnimalsForest" spawnDeadChance="0" />
+        </biome>
+
+        <biome name="desert">
+            <spawn maxcount="1" respawndelay="3" time="Any" entitygroup="ZombiesAll" />
+            <spawn maxcount="1" respawndelay="4" time="Night" entitygroup="ZombiesNight" />
+            <spawn maxcount="1" respawndelay="14" time="Any" entitygroup="EnemyAnimalsDesert" spawnDeadChance="0" />
+            <spawn maxcount="1" respawndelay="3" time="Any" entitygroup="FriendlyAnimalsDesert" spawnDeadChance="0" />
+        </biome>
+
+        <biome name="snow">
+            <spawn maxcount="1" respawndelay="3" time="Any" entitygroup="SnowZombies" />
+            <spawn maxcount="1" respawndelay="2" time="Night" entitygroup="ZombiesNight" />
+            <spawn maxcount="1" respawndelay="14" time="Any" entitygroup="EnemyAnimalsSnow" spawnDeadChance="0" />
+            <spawn maxcount="1" respawndelay="3" time="Any" entitygroup="FriendlyAnimalsSnow" spawnDeadChance="0" />
+        </biome>
+    </append>
+
+
+</tehMods>

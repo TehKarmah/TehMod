@@ -1,0 +1,64 @@
+<tehMods>
+	
+<!-- * * * * * BR HUD * * * * * -->
+
+<!-- Left HUD -->
+	<remove xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']/window[@name='HUDLeftStatBars']"/>
+	<append xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']">
+		<window name="BRLeftHud" anchor="LeftBottom" />
+	</append>
+<!-- compass -->
+	<remove xpath="/xui/ruleset[@name='default']/window_group[@name='compass']/window[@name='windowCompass']"/>
+	<append xpath="/xui/ruleset[@name='default']/window_group[@name='compass']">
+		<window name="BRCompass"/> 
+	</append>
+<!--Toolbelt -->	
+	<remove xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']/window[@name='windowToolbelt']"/>
+	<append xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']">
+		<window name="BRToolbelt" anchor="CenterBottom" />
+	</append>
+<!--infobar -->	
+	<append xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']">
+		<window name="BRinfobar" anchor="CenterBottom" />
+	</append>
+
+
+<!-- * * * * * * * TEH WORK STATIONS * * * * * * * -->
+	<append xpath="/xui/ruleset">
+		<window_group name="workstation_WorkingStove" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowToolsCampfire" />
+			<window name="windowFuel" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+	
+		<window_group name="workstation_IndustrialMixer" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowFuel" />
+			<window name="windowForgeInput" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+
+	</append>
+
+
+
+<!-- * * * * * * * * * TVs * * * * * * * * *  -->
+	<append xpath="/xui/ruleset">
+		<window_group name="workstation_AdminTV" controller="XUiC_WorkstationWindowGroup">
+				<window name="windowCraftingListAdminTV" />
+				<window name="AdminTVRules" />
+				<window name="craftingInfoPanelAdminTV" />
+				<window name="windowNonPagingHeader" />
+		</window_group>
+	</append>
+
+
+
+</tehMods>

@@ -1,0 +1,18 @@
+<tehMods>
+
+
+<!-- * * * * * * * * * FIRE GLASS * * * * * * * * *  -->
+
+    <append xpath="/lootcontainers/lootgroup[@name='workbenchLoot']">
+		<item name="FireGlassSchematic" count="1" prob="0.3"/>
+	</append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='schematicsModsRare']">
+		<item name="FireGlassSchematic" count="1" prob="0.3"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='decorativeBlocks']">
+		<item name="FireGlass" count="1" prob="0.1"/>
+	</append>
+
+</tehMods>
